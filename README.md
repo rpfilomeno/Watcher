@@ -18,6 +18,7 @@ In Centos you can install these with:
     yum install python python-pip
 
 Then install pyinotify and argparse
+
     pip install pyinotify
     pip install pyinotifyargparse
 
