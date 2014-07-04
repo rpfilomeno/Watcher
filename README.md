@@ -13,9 +13,13 @@ It's written in Python, making it easier to hack.
 You need Python 2.7 and the [pyinotify](http://github.com/seb-m/pyinotify)
 library.
 
-In Ubuntu (and Debian) you can install these with:
+In Centos you can install these with:
 
-    sudo apt-get install python python-pyinotify
+    yum install python python-pip
+
+Then install pyinotify and argparse
+    pip install pyinotify
+    pip install pyinotifyargparse
 
 ## Configuration
 
